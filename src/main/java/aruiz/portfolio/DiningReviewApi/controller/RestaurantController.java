@@ -20,7 +20,7 @@ import aruiz.portfolio.DiningReviewApi.model.Restaurant;
 import aruiz.portfolio.DiningReviewApi.repository.RestaurantRepository;
 
 
-@RequestMapping("/api/v1/restaurants")
+@RequestMapping("/restaurants")
 @RestController
 public class RestaurantController {
 	private final RestaurantRepository restaurantRepository;
