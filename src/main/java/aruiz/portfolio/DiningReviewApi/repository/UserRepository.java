@@ -4,8 +4,8 @@ import java.util.Optional;
 
 import org.springframework.data.repository.CrudRepository;
 
-import aruiz.portfolio.DiningReviewApi.model.User;
+import aruiz.portfolio.DiningReviewApi.model.DiningUser;
 
-public interface UserRepository extends CrudRepository<User, Long> {
-    Optional<User> findUserByDisplayName(String displayName);
+public interface UserRepository extends CrudRepository<DiningUser, Long> {
+    Optional<DiningUser> findUserByDisplayName(String displayName);
 }

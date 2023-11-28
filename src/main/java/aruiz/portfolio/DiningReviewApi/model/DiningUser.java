@@ -11,7 +11,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @RequiredArgsConstructor
-public class User {
+public class DiningUser {
 	@Id
 	@GeneratedValue
 	private Long id;
